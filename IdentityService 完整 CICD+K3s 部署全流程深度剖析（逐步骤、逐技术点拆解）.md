@@ -1,6 +1,6 @@
 # IdentityService 完整 CICD\+K3s 部署全流程深度剖析（逐步骤、逐技术点拆解）
 
-本文基于你提供的全套生产资源：**GitHub Actions 流水线、Namespace、PVC、Deployment、Service、Secret 动态创建、TCR 私有镜像拉取、NFS 密钥挂载、双探针健康检测、单副本定时任务适配架构**，进行**逐行、分步、全技术点拆解**。
+本文基于全套生产资源：**GitHub Actions 流水线、Namespace、PVC、Deployment、Service、Secret 动态创建、TCR 私有镜像拉取、NFS 密钥挂载、双探针健康检测、单副本定时任务适配架构**，进行**逐行、分步、全技术点拆解**。
 
 适配环境：**腾讯云 K3s（轻量 K8s）**
 
@@ -382,4 +382,4 @@ ports:
 
 6. **腾讯云生态适配**：修复 TCR 镜像推送兼容问题，完美适配 K3s 轻量集群特性
 
-> （注：部分内容可能由 AI 生成）
+> 
